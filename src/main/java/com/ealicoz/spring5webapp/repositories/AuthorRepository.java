@@ -1,6 +1,6 @@
-package guru.springframework.spring5webapp.repositories;
+package com.ealicoz.spring5webapp.repositories;
 
-import guru.springframework.spring5webapp.domain.Author;
+import com.ealicoz.spring5webapp.domain.Author;
 import org.springframework.data.repository.CrudRepository;
 
 /**

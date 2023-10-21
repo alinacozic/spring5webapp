@@ -1,12 +1,9 @@
-package guru.springframework.spring5webapp.domain;
+package com.ealicoz.spring5webapp.domain;
 
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
-/**
- * Created by jt on 12/22/19.
- */
 @Entity
 public class Book {
 
@@ -79,7 +76,6 @@ public class Book {
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", isbn='" + isbn + '\'' +
-                ", authors=" + authors +
                 '}';
     }
 

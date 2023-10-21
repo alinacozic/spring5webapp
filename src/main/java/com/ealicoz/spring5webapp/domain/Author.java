@@ -1,12 +1,9 @@
-package guru.springframework.spring5webapp.domain;
+package com.ealicoz.spring5webapp.domain;
 
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
-/**
- * Created by jt on 12/22/19.
- */
 @Entity
 public class Author {
 
@@ -66,9 +63,10 @@ public class Author {
                 "id=" + id +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
-                ", books=" + books +
                 '}';
     }
+
+
 
     @Override
     public boolean equals(Object o) {
